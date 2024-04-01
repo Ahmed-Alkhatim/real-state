@@ -1,7 +1,7 @@
-const Card = () => {
+const Card = (props) => {
     return(
-        <div className="bg-gray-1 rounded-[10px] border border-gray-o-3">
-            <p className="text-gray-3">Card</p>
+        <div className={ props.spacing + " bg-gray-1 rounded-[10px] border border-gray-2 "}>
+            {props.children}
         </div>
     )
 }

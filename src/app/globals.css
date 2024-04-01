@@ -8,6 +8,16 @@
     }
 }
 
+@layer base {
+  h1 {
+    @apply font-semibold text-x-large;
+    line-height: 120%;
+  } 
+  p {
+    @apply text-medium text-secondary
+  }
+}
+
 html {
   overflow-x: hidden;
   font-family: appFont;
@@ -16,6 +26,7 @@ html {
 body {
   color: #fff;
 }
+
 @font-face {
   font-family: appFont;
   src: url("/fonts/Urbanist-VariableFont_wght");

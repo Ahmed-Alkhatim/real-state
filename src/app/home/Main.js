@@ -18,6 +18,12 @@ const Main = () => {
                     <Card></Card>
                     <Card></Card>
                     <Card></Card>
+                        </Card>
+                        <Card spacing = "px-[20px] py-[14px]">
+                            <span className="text-[30px] text-semibold">16+</span>
+                            <p>Years of Experience</p>
+                        </Card>
+                    </div>
                 </div>
             </div>
 

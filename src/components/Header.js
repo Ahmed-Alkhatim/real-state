@@ -20,7 +20,7 @@ const AdsHeader = () => {
     return ( 
         <>
         { isDisplayed && 
-            <div className="relative bg-ads bg-cover bg-center h-[49px] border-b border-gray-3 ">
+            <div className="relative bg-ads bg-cover bg-center h-[49px] ">
                 <div className = "absolute top-1/2 -translate-y-1/2 right-[60px]">
                     <CloseBtn onClose={() => { setIsDisplayed(false) }}/>
                 </div>
@@ -36,7 +36,7 @@ const AdsHeader = () => {
 
 const Navigators = () => {
     return(
-        <div className="container flex items-center justify-between py-5">
+        <div className="container flex items-center justify-between py-[14px]  border-t-[2px] border-b-[2px] border-gray-2">
             <div><img src="/Logo.png"/></div>
             <div>
                 <ul className="space-x-10">

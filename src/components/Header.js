@@ -6,19 +6,32 @@ const Header = () => {
 
 
     return(
-        <div className="container">
+        <>
             <AdsHeader />
+            <Navigators />
+        </>
+    )
+}
+
+
+const Navigators = () => {
+    return(
+        <div className="container flex items-center justify-between py-5">
+            <div><img src="/Logo.png"/></div>
+            <div>
+                <ul className="space-x-10">
+                    <li className="inline-block">Home</li>
+                    <li className="inline-block">About Us</li>
+                    <li className="inline-block">Properties</li>
+                    <li className="inline-block">Services</li>
+                </ul>
+            </div> 
+            <div>
+                <Btn color = "secondary">Contact Us</Btn>
+            </div>
         </div>
     )
 }
 
-export default Header
 
- {/* <div className="nav-list">
-                    <ul>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Properties</li>
-                        <li>Services</li>
-                    </ul>
-                </div> */}
+export default Header

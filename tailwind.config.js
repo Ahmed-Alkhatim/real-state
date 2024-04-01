@@ -15,7 +15,7 @@ module.exports = {
       }
     },
     fontSize : {
-      'medium': '18px',
+      'medium': '16px',
     },
     colors:{
       'primary' : "#703BF7",

@@ -9,10 +9,10 @@ const Main = () => {
                     <p></p>
                 </div>
                 <div>
-                    <Btn></Btn>
-                    <Btn></Btn>
+                    <Btn color = "primary">name</Btn>
+                    <Btn color = "secondary">name</Btn>
                 </div>
-                <div>
+                <div className="space-y-10">
                     <Card></Card>
                     <Card></Card>
                     <Card></Card>
@@ -24,5 +24,5 @@ const Main = () => {
         </div>
     );
 }
- 
+
 export default Main;

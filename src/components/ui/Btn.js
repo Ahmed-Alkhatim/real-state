@@ -1,6 +1,12 @@
-const Btn = () => {
+const Btn = (props) => {
+    const style = {
+        'primary' : "bg-primary text-[#FFF]",
+        'secondary' : "bg-secondary text-[#FFF]",
+    }
     return(
-        <button>Btn</button>
+        <button className = { style[props.color] + " px-[24px] py-[18px] rounded-[10px]"} >
+            {props.children}
+        </button>
     )
 }
 

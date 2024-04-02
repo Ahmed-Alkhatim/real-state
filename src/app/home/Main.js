@@ -22,18 +22,19 @@ const Main = () => {
                     </div>
 
                     <div className="grid grid-cols-3 space-x-[16px] px-[80px]">
-                        <Card spacing = "px-[20px] py-[14px]">
-                            <span className="text-[30px] text-semibold">200+</span>
-                            <p>Happy Customers</p>
-                        </Card>
-                        <Card spacing = "px-[20px] py-[14px]">
-                            <span className="text-[30px] text-semibold">10k+</span>
-                            <p>Properties For Clients</p>
-                        </Card>
-                        <Card spacing = "px-[20px] py-[14px]">
-                            <span className="text-[30px] text-semibold">16+</span>
-                            <p>Years of Experience</p>
-                        </Card>
+                        {   [ 
+                                { prop : 'Happy Customers', count : '200+' }, 
+                                { prop : 'Properties For Clients', count : '10k+' }, 
+                                { prop : 'Years of Experience', count : '16+' }
+
+                            ].map((ele) => 
+                            
+                            <Card spacing = "px-[20px] py-[14px]">
+                                <span className="text-[30px] text-semibold">{ele.count}</span>
+                                <p>{ele.prop}</p>
+                            </Card>
+                        )}
+                       
                     </div>
                 </div>
             </div>

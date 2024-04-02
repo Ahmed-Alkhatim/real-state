@@ -15,8 +15,9 @@ module.exports = {
       }
     },
     fontSize : {
-      'x-large': "46px",
-      'large' : "38px",
+      'x-x-large': "46px",
+      'x-large' : "38px",
+      'large' : '20px',
       'medium': '16px',
     },
     colors:{

@@ -10,11 +10,14 @@
 
 @layer base {
   h1 {
-    @apply font-semibold text-x-large;
+    @apply font-semibold text-x-x-large;
     line-height: 120%;
   } 
   h2 {
-    @apply  font-semibold text-large
+    @apply  font-semibold text-x-large
+  }
+  h4 {
+    @apply font-semibold text-large
   }
   p {
     @apply text-medium text-secondary

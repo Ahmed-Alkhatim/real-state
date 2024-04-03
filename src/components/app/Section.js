@@ -1,5 +1,10 @@
 import { Btn } from "@/components";
-
+/**
+ * 
+ * @param {Text} title 
+ * @param {Text} description 
+ * @param {Text} btnText 
+ */
 const Section = (props) => {
     const { title, description, btnText } = props
     return ( 

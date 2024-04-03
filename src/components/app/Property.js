@@ -18,16 +18,16 @@ const Property = (props) => {
                 </p>
             </div>
 
-            <div className="flex space-x-1">
-                <div className="flex items-center space-x-2 rounded-full bg-gray-1 border-[2px] border-gray-2 px-[14px] py-[8px] h-[34px] leading-[17px]">
+            <div className="flex flex-wrap space-x-1 space-y-1">
+                <div className="flex items-center space-x-1 rounded-full bg-gray-1 border-[2px] border-gray-2 px-[14px] py-[8px] h-[34px] leading-[17px]">
                     <img className = 'inline-block' alt = '' src="/icons/bed.png"/>
                     <span>{property.bed_rooms}-Bedroom</span>
                 </div>
-                <div className="flex items-center space-x-2 rounded-full bg-gray-1 border-[2px] border-gray-2 px-[14px] py-[8px] h-[34px] leading-[17px]">
+                <div className="flex items-center space-x-1 rounded-full bg-gray-1 border-[2px] border-gray-2 px-[14px] py-[8px] h-[34px] leading-[17px]">
                     <img className = 'inline-block' alt = '' src="/icons/bath.png"/>
                     <span>{property.bath_rooms}-Bathroom</span>
                 </div>
-                <div className="flex items-center space-x-2 rounded-full bg-gray-1 border-[2px] border-gray-2 px-[14px] py-[8px] h-[34px] leading-[17px]">
+                <div className="flex items-center space-x-1 rounded-full bg-gray-1 border-[2px] border-gray-2 px-[14px] py-[8px] h-[34px] leading-[17px]">
                     <img className = 'inline-block' alt = '' src="/icons/villa.png"/>
                     <span>{property.type}</span>
                 </div>

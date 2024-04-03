@@ -19,6 +19,9 @@
   h4 {
     @apply font-semibold text-large
   }
+  h5 {
+    @apply font-semibold text-large
+  }
   p {
     @apply text-medium text-secondary
   }

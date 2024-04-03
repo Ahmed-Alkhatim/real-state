@@ -6,6 +6,9 @@
     .container {
       @apply px-[70px]
     }
+    .card {
+      @apply border border-gray-2 rounded-[12px] 
+    }
 }
 
 @layer base {
@@ -16,6 +19,7 @@
   h2 {
     @apply  font-semibold text-x-large
   }
+ 
   h4 {
     @apply font-semibold text-large
   }

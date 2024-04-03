@@ -2,6 +2,7 @@ import Main from "./Main";
 import Features from "./Features";
 import FeaturedProperties from "./FeaturedProperties"
 import Reviews from './Reviews'
+import Questions from "./Questions"
 
 const Home = () => {
     return ( 
@@ -10,6 +11,7 @@ const Home = () => {
             <Features />
             <FeaturedProperties />
             <Reviews />
+            <Questions />
         </div>
      );
 }

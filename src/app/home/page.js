@@ -3,6 +3,7 @@ import Features from "./Features";
 import FeaturedProperties from "./FeaturedProperties"
 import Reviews from './Reviews'
 import Questions from "./Questions"
+import Cta from "./Cta";
 
 const Home = () => {
     return ( 
@@ -12,6 +13,7 @@ const Home = () => {
             <FeaturedProperties />
             <Reviews />
             <Questions />
+            <Cta />
         </div>
      );
 }

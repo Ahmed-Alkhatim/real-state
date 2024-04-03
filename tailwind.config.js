@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'ads': "url('/ads-bg.png')",
+        'cta' : "url('/cta.png')",
       }
     },
     fontSize : {

@@ -1,0 +1,29 @@
+[
+    {
+        "title" : "Exceptional Service!",
+        "description" : "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
+        "reviewer" : {
+            "name" : "John Mans",
+            "address" : "USA, California",
+            "image" : "user1.png"
+        }
+    } ,
+    {
+        "title" : "Exceptional Service!",
+        "description" : "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
+        "reviewer" : {
+            "name" : "Wade Warren",
+            "address" : "USA, California",
+            "image" : "user2.png"
+        }
+    } ,
+    {
+        "title" : "Exceptional Service!",
+        "description" : "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
+        "reviewer" : {
+            "name" : "John Mans",
+            "address" : "USA, California",
+            "image" : "user3.png"
+        }
+    } 
+]

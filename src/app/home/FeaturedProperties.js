@@ -1,23 +1,7 @@
 import { Property, Section  } from "@/components";
+import properties from "@/data/properties";
 
 const FeaturedProperties = () => {
-    const properties = [
-        { 
-            id : '', title : 'Seaside Serenity Villa', image : '/image1.png', 
-            subtitle : 'A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...', 
-            bed_rooms : '4', bath_rooms : '3', type : 'Villa', price : '$550,000' 
-        },
-        { 
-            id : '', title : 'Metropolitan Haven', image : '/image2.png', 
-            subtitle : 'A chic and fully-furnished 2-bedroom apartment with panoramic city views... ', 
-            bed_rooms : '4', bath_rooms : '3', type : 'Villa', price : '$550,000' 
-        },
-        { 
-            id : '', title : 'Rustic Retreat Cottage', image : '/image3.png', 
-            subtitle : 'An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...', 
-            bed_rooms : '4', bath_rooms : '3', type : 'Villa', price : '$550,000' 
-        },
-    ]
     return ( 
         <>
             <Section 

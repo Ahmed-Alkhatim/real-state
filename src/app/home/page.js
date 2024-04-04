@@ -7,7 +7,7 @@ import Cta from "./Cta";
 
 const Home = () => {
     return ( 
-        <div className="pb-[200px]">
+        <div>
             <Main />
             <Features />
             <FeaturedProperties />

@@ -9,6 +9,9 @@
     .card {
       @apply border border-gray-2 rounded-[12px] 
     }
+    .flex-center {
+      @apply flex justify-between items-center
+    }
 }
 
 @layer base {

@@ -13,7 +13,7 @@ const Questions = () => {
                     { questions.map( question =>
                         <Question question = {question}/>
                     )}
-                </div>
+                </div> 
             </Section>
         </div>
     );

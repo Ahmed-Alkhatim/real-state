@@ -2,6 +2,7 @@ import Main from "./Main"
 import Values from "./Values"
 import Cta from "../home/Cta"
 import Achievements from "./Achievements"
+import Team from "./Team"
 const About = () => {
     return(
         <>
@@ -9,6 +10,7 @@ const About = () => {
             <Values />
             <Achievements />
             <Cta />
+            <Team />
         </>
     )
 }   

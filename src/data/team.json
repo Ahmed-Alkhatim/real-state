@@ -1,0 +1,22 @@
+[ 
+    { 
+        "name" : "Max Mitchell",
+        "job" : "Legal Counsel",
+        "image" : "member1.png"
+    },
+    { 
+        "name" : "Sarah Johnson",
+        "job" : "Chief Real Estate Officer",
+        "image" : "member2.png"
+    } ,
+    { 
+        "name" : "David Brown",
+        "job" : "Head of Property Management",
+        "image" : "member3.png"
+    },
+    { 
+        "name"  : "Michael Turner",
+        "job" : "Legal Counsel",
+        "image" : "member4.png"
+    }
+]

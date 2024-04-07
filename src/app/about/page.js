@@ -1,7 +1,14 @@
+import Main from "./Main"
+import Values from "./Values"
+import Cta from "../home/Cta"
 const About = () => {
     return(
-        <div>Hello From About Page</div>
+        <>
+            <Main />
+            <Values />
+            <Cta />
+        </>
     )
-}
+}   
 
 export default About

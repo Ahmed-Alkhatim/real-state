@@ -16,7 +16,7 @@ const Section = (props) => {
                         <h2>{ title }</h2>
                         <p>{ description }</p>
                     </div>
-                    <div><Btn space = 'secondary' color = 'secondary' >{ btnText }</Btn></div>
+                    {btnText && <div><Btn space = 'secondary' color = 'secondary' >{ btnText }</Btn></div>}
                 </div>
                 { props.children }
             </div>

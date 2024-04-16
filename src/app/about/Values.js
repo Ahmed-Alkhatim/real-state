@@ -1,6 +1,6 @@
 const Values = () => {
     return (  
-        <div className="container grid grid-cols-3 mt-[100px]">
+        <div className="section-container grid grid-cols-3 mt-[100px]">
             <div className="flex items-center pr-[90px]">
                 <div >
                     <img src="/stars.png" />

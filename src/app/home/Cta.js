@@ -2,7 +2,7 @@ import { Btn } from "@/components";
 
 const Cta = () => {
     return (  
-        <div className="container h-[260px] px-[80px] py-[60px] mt-[60px] bg-cta bg-cover bg-center ">
+        <div className="section-container h-[260px] px-[80px] py-[60px] mt-[60px] bg-cta bg-cover bg-center ">
             <div className="flex-center h-full">
                 <div className="w-2/3">
                     <h2>Start Your Real Estate Journey Today</h2>

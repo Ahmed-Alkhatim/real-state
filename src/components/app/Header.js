@@ -38,14 +38,14 @@ const AdsHeader = () => {
 const Navigators = () => {
     const pathname = usePathname()
     return(
-        <div className="container flex items-center justify-between py-[14px]  border-t-[2px] border-b-[2px] border-gray-2">
+        <div className="section-container flex items-center justify-between py-[14px]  border-t-[2px] border-b-[2px] border-gray-2">
             <div><img src="/Logo.png"/></div>
             <div>
                 <ul className="space-x-10">
-                    <Link href='home'><li className={"inline-block py-[12px] px-[20px] rounded-[8px]" + ( pathname == '/home' ? ' bg-black border border-gray-2' : '')}>Home</li></Link>
-                    <Link href = "about"><li className={"inline-block py-[12px] px-[20px] rounded-[8px]" + ( pathname == '/about' ? ' bg-black border border-gray-2' : '')}>About Us</li></Link>
-                    <Link href = "properties"><li className={"inline-block py-[12px] px-[20px] rounded-[8px]"+ ( pathname == '/properties' ? ' bg-black border border-gray-2' : '')}>Properties</li></Link>
-                    <Link href = "services"><li className={"inline-block py-[12px] px-[20px] rounded-[8px]"+ ( pathname == '/services' ? ' bg-black border border-gray-2' : '')}>Services</li></Link>
+                    <Link href='/'><li className={"inline-block py-[12px] px-[20px] rounded-[8px]" + ( pathname == '/' ? ' bg-black border border-gray-2 text-medium' : '')}>Home</li></Link>
+                    <Link href = "about"><li className={"inline-block py-[12px] px-[20px] rounded-[8px]" + ( pathname == '/about' ? ' bg-black border border-gray-2 text-medium' : '')}>About Us</li></Link>
+                    <Link href = "properties"><li className={"inline-block py-[12px] px-[20px] rounded-[8px]"+ ( pathname == '/properties' ? ' bg-black border border-gray-2 text-medium' : '')}>Properties</li></Link>
+                    <Link href = "services"><li className={"inline-block py-[12px] px-[20px] rounded-[8px]"+ ( pathname == '/services' ? ' bg-black border border-gray-2 text-medium' : '')}>Services</li></Link>
                 </ul>
             </div> 
             <div>

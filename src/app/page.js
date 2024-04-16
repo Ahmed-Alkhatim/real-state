@@ -1,10 +1,21 @@
-import { Header, Footer  } from "@/components"
-const Home = () => {
-    return(
-        <>
-          <div className="container h-[200px] pt-20">Hello </div>
-        </>
-    )
-}
+import Main from "./home/Main";
+import Features from "./home/Features";
+import FeaturedProperties from "./home/FeaturedProperties"
+import Reviews from './home/Reviews'
+import Questions from "./home/Questions"
+import Cta from "./home/Cta";
 
-export default Home
+const Home = () => {
+    return ( 
+        <div>
+            <Main /> 
+            <Features />
+            <FeaturedProperties />
+            <Reviews />
+            <Questions />
+            <Cta />
+        </div>
+     );
+}
+ 
+export default Home;

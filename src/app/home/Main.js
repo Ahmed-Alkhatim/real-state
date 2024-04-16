@@ -1,4 +1,4 @@
-import { Btn, Card } from "@/components";
+import { Btn, Card, Statistics } from "@/components";
 
 const Main = () => {
     return ( 
@@ -21,20 +21,8 @@ const Main = () => {
                         <Btn color = "primary">Browse Properties</Btn>
                     </div>
 
-                    <div className="grid grid-cols-3 space-x-[16px] px-[80px]">
-                        {   [ 
-                                { prop : 'Happy Customers', count : '200+' }, 
-                                { prop : 'Properties For Clients', count : '10k+' }, 
-                                { prop : 'Years of Experience', count : '16+' }
-
-                            ].map((ele) => 
-                            
-                            <Card spacing = "px-[20px] py-[14px]">
-                                <span className="text-[30px] text-semibold">{ele.count}</span>
-                                <p>{ele.prop}</p>
-                            </Card>
-                        )}
-                       
+                    <div className="px-[80px]">
+                        <Statistics />
                     </div>
                 </div>
             </div>

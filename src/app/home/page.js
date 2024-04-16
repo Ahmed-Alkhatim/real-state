@@ -8,7 +8,7 @@ import Cta from "./Cta";
 const Home = () => {
     return ( 
         <div>
-            <Main />
+            <Main /> 
             <Features />
             <FeaturedProperties />
             <Reviews />

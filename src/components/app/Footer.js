@@ -10,7 +10,7 @@ const Footer = () => {
 
     return(
         <>
-            <div className="container flex justify-between py-[100px] ">
+            <div className="section-container flex justify-between py-[100px] ">
                 <div className="space-y-[24px]">
                     <img src="/Logo.png" alt=""/>
                     <div className="inline-block relative">
@@ -21,16 +21,16 @@ const Footer = () => {
                 </div>
                 { Object.keys(navItems).map( navItem =>
                     <div>
-                        <h5 className="text=[18px] text-secondary mb-[24px]">{navItem}</h5>
+                        <h5 className="text-[14px] text-secondary mb-[24px]">{navItem}</h5>
                         <ul className="space-y-[16px]">
                             { navItems[navItem].map(link => 
-                                <li key={link} className="text-[16px]">{link}</li>) 
+                                <li key={link} className="text-[14px]">{link}</li>) 
                             }
                         </ul>
                     </div>
                 )}
             </div>
-            <div className="container flex-center py-[16px] bg-gray-1">
+            <div className="section-container flex-center py-[16px] bg-gray-1">
                 <div className="space-x-[20px]">
                     <span>@2023 Estatein. All Rights Reserved.</span>
                     <span>Terms & Conditions</span>

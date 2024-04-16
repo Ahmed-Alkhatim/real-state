@@ -2,9 +2,7 @@ import { Header, Footer  } from "@/components"
 const Home = () => {
     return(
         <>
-            <Header />
-            <div>Hello</div>
-            <Footer />
+          <div className="container h-[200px] pt-20">Hello </div>
         </>
     )
 }

@@ -8,7 +8,7 @@ import { Btn } from "@/components";
 const Section = (props) => {
     const { title, description, btnText } = props
     return ( 
-        <div className="container mt-20 ">
+        <div className="section-container mt-20 ">
             <div className="border-b border-gray-2 pb-[40px]">
                 <img src="/stars.png" />
                 <div className="flex justify-between items-end">

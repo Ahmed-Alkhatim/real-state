@@ -2,7 +2,7 @@ import { Section, Statistics } from "@/components";
 
 const Main = () => {
     return ( 
-        <div className="container grid grid-cols-2 space-x-[60px] mt-[70px]">
+        <div className="section-container grid grid-cols-2 space-x-[60px] mt-[70px]">
             <div className="space-y-[50px]">
                 <div>
                     <img src="/stars.png" />

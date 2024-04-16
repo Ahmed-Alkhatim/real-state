@@ -16,10 +16,11 @@ module.exports = {
       }
     },
     fontSize : {
-      'x-x-large': "46px",
-      'x-large' : "38px",
-      'large' : '20px',
-      'medium': '16px',
+      'x-x-large': "28px",
+      'x-large' : "28px",
+      'large' : '18px',
+      'medium': '14px',
+      'small' : "12px"
     },
     colors:{
       'primary' : "#703BF7",

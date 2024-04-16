@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-    .container {
+    .section-container {
       @apply px-[70px]
     }
     .card {

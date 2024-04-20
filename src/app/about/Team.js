@@ -21,7 +21,7 @@ const Member = ({member}) => {
 
     return(
         <div className="relative card p-6 text-center space-y-[50px]">
-            <div className="h-[220px]">
+            <div className="h-[180px]">
                 <img src={member.image} alt="" className="h-full w-full"/>
                 <img src="/twitterc.png" alt="" className="absolute b-0 -translate-y-1/2 right-1/2 translate-x-1/2"/>
             </div>
@@ -29,8 +29,8 @@ const Member = ({member}) => {
                 <h5>{member.name}</h5>
                 <p>{member.job}</p>
                 <div className="relative p-0 m-0">
-                    <input className="h-[56px] w-full bg-gray-1 border border-gray-2 rounded-full p-[10px] indent-2" placeholder="Say Hello 👋"/>
-                    <img src="/tele.png" alt="" className="absolute right-3 top-0 translate-y-[10px] " />
+                    <input className="text-medium h-[46px] w-full bg-gray-1 border border-gray-2 rounded-full p-[10px] indent-2" placeholder="Say Hello 👋"/>
+                    <img src="/tele.png" alt="" className="absolute right-3 top-0 translate-y-[5px] " />
                 </div>
             </div>
         </div>

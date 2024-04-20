@@ -19,7 +19,7 @@ module.exports = {
       'x-x-large': "28px",
       'x-large' : "28px",
       'large' : '18px',
-      'medium': '14px',
+      'medium': '13px',
       'small' : "12px"
     },
     colors:{

@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                 )}
             </div>
-            <div className="section-container flex-center py-[16px] bg-gray-1">
+            <div className="section-container text-medium flex-center py-[16px] bg-gray-1">
                 <div className="space-x-[20px]">
                     <span>@2023 Estatein. All Rights Reserved.</span>
                     <span>Terms & Conditions</span>

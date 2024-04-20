@@ -8,7 +8,7 @@ const Main = () => {
             <div className=" w-1/2 flex items-center" >
                 <div className="space-y-[50px]">
                    
-                    <div className="relative px-[80px] ">
+                    <div className="relative px-[70px] ">
                         <div className="absolute top-0 right-0 translate-x-1/2 ">
                             <img src="/text.png" alt="" />
                         </div>
@@ -16,12 +16,12 @@ const Main = () => {
                         <p>Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.</p>
                     </div>
 
-                    <div className="space-x-[8px] px-[80px]">
+                    <div className="space-x-[8px] px-[70px]">
                         <Btn color = "secondary">Learn More</Btn>
                         <Btn color = "primary">Browse Properties</Btn>
                     </div>
 
-                    <div className="px-[80px]">
+                    <div className="px-[70px]">
                         <Statistics />
                     </div>
                 </div>
